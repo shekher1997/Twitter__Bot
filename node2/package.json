@@ -15,5 +15,8 @@
     "bot"
   ],
   "author": "Shashank Shekhar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
 }
