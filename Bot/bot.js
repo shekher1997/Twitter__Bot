@@ -1,4 +1,4 @@
-console.log("hello bot");
+console.log("hello twitter bot");
 
 var Twit = require('twit');
 var config = require('./config');
