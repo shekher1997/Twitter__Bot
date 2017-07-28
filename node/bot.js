@@ -13,5 +13,12 @@ var params = {
 T.get('search/tweets', params, goData);
 
 function goData(err, data, response) {
-  console.log(data);
+  var tweet = data.statuses;
+  for (var i = 0; i < tweet.length; i++) {
+    console.log(tweet[i].text);
+  }
 }
+
+// function goData(err, data, response) {
+//     console.log(data);
+// }
