@@ -6,8 +6,8 @@ var config = require('./config');
 var T = new Twit(config);
 
 var params = {
-  q: '#jadavpuruniversity',
-  count: 2
+  q: 'jadavpur university since:2017-07-27',
+  count: 20
 }
 
 T.get('search/tweets', params, goData);
