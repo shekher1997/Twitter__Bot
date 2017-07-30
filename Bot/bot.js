@@ -6,7 +6,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 var params = {
-  q: 'jadavpur university since:2017-07-27',
+  q: 'jadavpuruniversity since:2017-07-27',
   count: 20
 }
 
