@@ -9,7 +9,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 var params = {
-  q: 'The Big Bang Theory since:2017-07-27',
+  q: 'Game of thrones since:2017-07-27',
   count: 30
 }
 
