@@ -9,7 +9,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 var postparams = {
-     status: 'Aha!My twitter bot is working.', 
+     status: 'Aha!My twitter bot is working.'
 }
 
 T.post('statuses/update', postparams, postData);
