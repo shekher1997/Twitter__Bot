@@ -12,7 +12,7 @@ var T = new Twit(config);
 var stream = T.stream('user');
 
 //anytime someone follows me.
-stream.on('follow',followed);
+stream.on('follow', followed);
 
 function followed(eventMsg) {
     console.log('Follow event.')
