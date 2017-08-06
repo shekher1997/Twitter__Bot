@@ -1,4 +1,4 @@
-console.log("Twitter Bot Initiating...");
+console.log("Twitter Follow Bot Initiating...");
 
 // console.log(" ");
 // console.log(" ");
