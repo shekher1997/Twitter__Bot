@@ -9,7 +9,7 @@ var T = new Twit(config);
 
 
 //setting up a user stream.
-var stream = T.stream('user');
+var stream = T.stream('user'); 
 
 //anytime someone follows me.
 stream.on('follow', followed);
