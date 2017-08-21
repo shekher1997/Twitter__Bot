@@ -9,7 +9,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 var params = {
-  q: '#JadavpurUniversity since:2017-08-10',
+  q: '#GameOfThrones since:2017-08-20',
   count: 30
 }
 
