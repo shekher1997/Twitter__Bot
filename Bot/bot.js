@@ -1,4 +1,4 @@
-console.log("Twitter Bot Initiating...");
+console.log("STwitter Bot Initiating...");
 
 console.log(" ");
 console.log(" ");

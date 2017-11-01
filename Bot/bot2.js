@@ -8,7 +8,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 
-//setting up a user stream.
+//setting up a user stream.dS
 var stream = T.stream('user'); 
 
 //anytime someone follows me.
